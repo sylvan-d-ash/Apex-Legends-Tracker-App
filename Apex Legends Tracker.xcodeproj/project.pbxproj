@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EC7A5E0233A3D1700BC60DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7A5DF233A3D1700BC60DF /* AppDelegate.swift */; };
+		5EC7A5E2233A3D1700BC60DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7A5E1233A3D1700BC60DF /* ViewController.swift */; };
+		5EC7A5E5233A3D1700BC60DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7A5E3233A3D1700BC60DF /* Main.storyboard */; };
+		5EC7A5E7233A3D1C00BC60DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7A5E6233A3D1C00BC60DF /* Assets.xcassets */; };
+		5EC7A5EA233A3D1C00BC60DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7A5E8233A3D1C00BC60DF /* LaunchScreen.storyboard */; };
+		5EC7A5F5233A3D1C00BC60DF /* Apex_Legends_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7A5F4233A3D1C00BC60DF /* Apex_Legends_TrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC7A5F1233A3D1C00BC60DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC7A5D4233A3D1700BC60DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC7A5DB233A3D1700BC60DF;
+			remoteInfo = "Apex Legends Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EC7A5DC233A3D1700BC60DF /* Apex Legends Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apex Legends Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC7A5DF233A3D1700BC60DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EC7A5E1233A3D1700BC60DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EC7A5E4233A3D1700BC60DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EC7A5E6233A3D1C00BC60DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EC7A5E9233A3D1C00BC60DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EC7A5EB233A3D1C00BC60DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC7A5F0233A3D1C00BC60DF /* Apex Legends TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex Legends TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC7A5F4233A3D1C00BC60DF /* Apex_Legends_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_TrackerTests.swift; sourceTree = "<group>"; };
+		5EC7A5F6233A3D1C00BC60DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC7A5D9233A3D1700BC60DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC7A5ED233A3D1C00BC60DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EC7A5D3233A3D1700BC60DF = {
+			isa = PBXGroup;
+			children = (
+				5EC7A5DE233A3D1700BC60DF /* Apex Legends Tracker */,
+				5EC7A5F3233A3D1C00BC60DF /* Apex Legends TrackerTests */,
+				5EC7A5DD233A3D1700BC60DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EC7A5DD233A3D1700BC60DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7A5DC233A3D1700BC60DF /* Apex Legends Tracker.app */,
+				5EC7A5F0233A3D1C00BC60DF /* Apex Legends TrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC7A5DE233A3D1700BC60DF /* Apex Legends Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7A5DF233A3D1700BC60DF /* AppDelegate.swift */,
+				5EC7A5E1233A3D1700BC60DF /* ViewController.swift */,
+				5EC7A5E3233A3D1700BC60DF /* Main.storyboard */,
+				5EC7A5E6233A3D1C00BC60DF /* Assets.xcassets */,
+				5EC7A5E8233A3D1C00BC60DF /* LaunchScreen.storyboard */,
+				5EC7A5EB233A3D1C00BC60DF /* Info.plist */,
+			);
+			path = "Apex Legends Tracker";
+			sourceTree = "<group>";
+		};
+		5EC7A5F3233A3D1C00BC60DF /* Apex Legends TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7A5F4233A3D1C00BC60DF /* Apex_Legends_TrackerTests.swift */,
+				5EC7A5F6233A3D1C00BC60DF /* Info.plist */,
+			);
+			path = "Apex Legends TrackerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EC7A5DB233A3D1700BC60DF /* Apex Legends Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC7A5F9233A3D1C00BC60DF /* Build configuration list for PBXNativeTarget "Apex Legends Tracker" */;
+			buildPhases = (
+				5EC7A5D8233A3D1700BC60DF /* Sources */,
+				5EC7A5D9233A3D1700BC60DF /* Frameworks */,
+				5EC7A5DA233A3D1700BC60DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apex Legends Tracker";
+			productName = "Apex Legends Tracker";
+			productReference = 5EC7A5DC233A3D1700BC60DF /* Apex Legends Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC7A5EF233A3D1C00BC60DF /* Apex Legends TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC7A5FC233A3D1C00BC60DF /* Build configuration list for PBXNativeTarget "Apex Legends TrackerTests" */;
+			buildPhases = (
+				5EC7A5EC233A3D1C00BC60DF /* Sources */,
+				5EC7A5ED233A3D1C00BC60DF /* Frameworks */,
+				5EC7A5EE233A3D1C00BC60DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC7A5F2233A3D1C00BC60DF /* PBXTargetDependency */,
+			);
+			name = "Apex Legends TrackerTests";
+			productName = "Apex Legends TrackerTests";
+			productReference = 5EC7A5F0233A3D1C00BC60DF /* Apex Legends TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EC7A5D4233A3D1700BC60DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sylvan Ash";
+				TargetAttributes = {
+					5EC7A5DB233A3D1700BC60DF = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					5EC7A5EF233A3D1C00BC60DF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 5EC7A5DB233A3D1700BC60DF;
+					};
+				};
+			};
+			buildConfigurationList = 5EC7A5D7233A3D1700BC60DF /* Build configuration list for PBXProject "Apex Legends Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EC7A5D3233A3D1700BC60DF;
+			productRefGroup = 5EC7A5DD233A3D1700BC60DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EC7A5DB233A3D1700BC60DF /* Apex Legends Tracker */,
+				5EC7A5EF233A3D1C00BC60DF /* Apex Legends TrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EC7A5DA233A3D1700BC60DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC7A5EA233A3D1C00BC60DF /* LaunchScreen.storyboard in Resources */,
+				5EC7A5E7233A3D1C00BC60DF /* Assets.xcassets in Resources */,
+				5EC7A5E5233A3D1700BC60DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC7A5EE233A3D1C00BC60DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EC7A5D8233A3D1700BC60DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC7A5E2233A3D1700BC60DF /* ViewController.swift in Sources */,
+				5EC7A5E0233A3D1700BC60DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC7A5EC233A3D1C00BC60DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC7A5F5233A3D1C00BC60DF /* Apex_Legends_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC7A5F2233A3D1C00BC60DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC7A5DB233A3D1700BC60DF /* Apex Legends Tracker */;
+			targetProxy = 5EC7A5F1233A3D1C00BC60DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EC7A5E3233A3D1700BC60DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EC7A5E4233A3D1700BC60DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EC7A5E8233A3D1C00BC60DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EC7A5E9233A3D1C00BC60DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EC7A5F7233A3D1C00BC60DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EC7A5F8233A3D1C00BC60DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EC7A5FA233A3D1C00BC60DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Apex Legends Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daitensai.Apex-Legends-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC7A5FB233A3D1C00BC60DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Apex Legends Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daitensai.Apex-Legends-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC7A5FD233A3D1C00BC60DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Apex Legends TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daitensai.Apex-Legends-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apex Legends Tracker.app/Apex Legends Tracker";
+			};
+			name = Debug;
+		};
+		5EC7A5FE233A3D1C00BC60DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Apex Legends TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daitensai.Apex-Legends-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apex Legends Tracker.app/Apex Legends Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EC7A5D7233A3D1700BC60DF /* Build configuration list for PBXProject "Apex Legends Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC7A5F7233A3D1C00BC60DF /* Debug */,
+				5EC7A5F8233A3D1C00BC60DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC7A5F9233A3D1C00BC60DF /* Build configuration list for PBXNativeTarget "Apex Legends Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC7A5FA233A3D1C00BC60DF /* Debug */,
+				5EC7A5FB233A3D1C00BC60DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC7A5FC233A3D1C00BC60DF /* Build configuration list for PBXNativeTarget "Apex Legends TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC7A5FD233A3D1C00BC60DF /* Debug */,
+				5EC7A5FE233A3D1C00BC60DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EC7A5D4233A3D1700BC60DF /* Project object */;
+}
