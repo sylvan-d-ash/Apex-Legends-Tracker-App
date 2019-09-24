@@ -6,7 +6,7 @@
 //  Copyright © 2019 Sylvan Ash. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 class StartViewController: UIViewController {
