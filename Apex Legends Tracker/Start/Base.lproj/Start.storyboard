@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="StartViewController" customModule="Apex_Legends_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Apex Legends" translatesAutoresizingMaskIntoConstraints="NO" id="bc1-Eo-H5k">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.88627450980392153" green="0.87450980392156863" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.72058304790000005" green="0.24981271399999999" blue="0.24673501710000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDN-Vc-6U9">
+                                <rect key="frame" x="41.5" y="322.5" width="331" height="331"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gamer Tag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSc-fC-jrm">
+                                        <rect key="frame" x="15" y="137" width="301" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vN9-ft-eQ5">
+                                        <rect key="frame" x="15" y="69" width="301" height="29"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <segments>
+                                            <segment title="PlayStation"/>
+                                            <segment title="XBox"/>
+                                            <segment title="Origin"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.3540489673614502" green="0.31519755721092224" blue="0.42354238033294678" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </segmentedControl>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b2P-YD-0OV">
+                                        <rect key="frame" x="15" y="176" width="301" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Platform" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSr-uz-cC6">
+                                        <rect key="frame" x="15" y="30" width="301" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.71702033281326294" green="0.70254570245742798" blue="0.67058342695236206" alpha="0.29658069349315069" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="vN9-ft-eQ5" firstAttribute="leading" secondItem="xDN-Vc-6U9" secondAttribute="leading" constant="15" id="5rm-vn-e2y"/>
+                                    <constraint firstAttribute="width" secondItem="xDN-Vc-6U9" secondAttribute="height" multiplier="1:1" id="I6V-b6-xWj"/>
+                                    <constraint firstItem="vN9-ft-eQ5" firstAttribute="top" secondItem="GSr-uz-cC6" secondAttribute="bottom" constant="15" id="KXk-8R-nCC"/>
+                                    <constraint firstItem="GSr-uz-cC6" firstAttribute="leading" secondItem="xDN-Vc-6U9" secondAttribute="leading" constant="15" id="R9e-4B-gIH"/>
+                                    <constraint firstAttribute="trailing" secondItem="b2P-YD-0OV" secondAttribute="trailing" constant="15" id="RYX-5k-d0s"/>
+                                    <constraint firstAttribute="trailing" secondItem="uSc-fC-jrm" secondAttribute="trailing" constant="15" id="Sio-LI-b37"/>
+                                    <constraint firstItem="b2P-YD-0OV" firstAttribute="leading" secondItem="xDN-Vc-6U9" secondAttribute="leading" constant="15" id="cLK-yH-RVv"/>
+                                    <constraint firstItem="GSr-uz-cC6" firstAttribute="top" secondItem="xDN-Vc-6U9" secondAttribute="top" constant="30" id="u4N-Lw-791"/>
+                                    <constraint firstAttribute="trailing" secondItem="GSr-uz-cC6" secondAttribute="trailing" constant="15" id="v4A-FB-gFz"/>
+                                    <constraint firstItem="uSc-fC-jrm" firstAttribute="leading" secondItem="xDN-Vc-6U9" secondAttribute="leading" constant="15" id="vks-Bz-x8L"/>
+                                    <constraint firstItem="uSc-fC-jrm" firstAttribute="top" secondItem="vN9-ft-eQ5" secondAttribute="bottom" constant="40" id="y5I-3T-Z71"/>
+                                    <constraint firstItem="b2P-YD-0OV" firstAttribute="top" secondItem="uSc-fC-jrm" secondAttribute="bottom" constant="15" id="z4G-Ck-Ddp"/>
+                                    <constraint firstAttribute="trailing" secondItem="vN9-ft-eQ5" secondAttribute="trailing" constant="15" id="zw9-zi-qzF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xDN-Vc-6U9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="4/5" id="8bE-Da-Js0"/>
+                            <constraint firstAttribute="bottom" secondItem="bc1-Eo-H5k" secondAttribute="bottom" id="JgH-bl-SKs"/>
+                            <constraint firstItem="xDN-Vc-6U9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L8l-2k-DcN"/>
+                            <constraint firstItem="xDN-Vc-6U9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="40" id="NnH-u8-Uxj"/>
+                            <constraint firstItem="bc1-Eo-H5k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SIr-BI-MH6"/>
+                            <constraint firstItem="bc1-Eo-H5k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ddy-aH-h0K"/>
+                            <constraint firstItem="bc1-Eo-H5k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eoq-9s-OAy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="18.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Apex Legends" width="950" height="1080"/>
+    </resources>
+</document>

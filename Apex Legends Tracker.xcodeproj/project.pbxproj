@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5EC7A5E0233A3D1700BC60DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7A5DF233A3D1700BC60DF /* AppDelegate.swift */; };
-		5EC7A5E2233A3D1700BC60DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7A5E1233A3D1700BC60DF /* ViewController.swift */; };
-		5EC7A5E5233A3D1700BC60DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7A5E3233A3D1700BC60DF /* Main.storyboard */; };
+		5EC7A5E5233A3D1700BC60DF /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7A5E3233A3D1700BC60DF /* Start.storyboard */; };
 		5EC7A5E7233A3D1C00BC60DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7A5E6233A3D1C00BC60DF /* Assets.xcassets */; };
 		5EC7A5EA233A3D1C00BC60DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7A5E8233A3D1C00BC60DF /* LaunchScreen.storyboard */; };
 		5EC7A5F5233A3D1C00BC60DF /* Apex_Legends_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7A5F4233A3D1C00BC60DF /* Apex_Legends_TrackerTests.swift */; };
+		5EC7A603233A3DD200BC60DF /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7A602233A3DD200BC60DF /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,14 @@
 /* Begin PBXFileReference section */
 		5EC7A5DC233A3D1700BC60DF /* Apex Legends Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apex Legends Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC7A5DF233A3D1700BC60DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EC7A5E1233A3D1700BC60DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EC7A5E4233A3D1700BC60DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EC7A5E4233A3D1700BC60DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Start.storyboard; sourceTree = "<group>"; };
 		5EC7A5E6233A3D1C00BC60DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC7A5E9233A3D1C00BC60DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC7A5EB233A3D1C00BC60DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC7A5F0233A3D1C00BC60DF /* Apex Legends TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex Legends TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC7A5F4233A3D1C00BC60DF /* Apex_Legends_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_Legends_TrackerTests.swift; sourceTree = "<group>"; };
 		5EC7A5F6233A3D1C00BC60DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC7A602233A3DD200BC60DF /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +77,9 @@
 		5EC7A5DE233A3D1700BC60DF /* Apex Legends Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				5EC7A5DF233A3D1700BC60DF /* AppDelegate.swift */,
-				5EC7A5E1233A3D1700BC60DF /* ViewController.swift */,
-				5EC7A5E3233A3D1700BC60DF /* Main.storyboard */,
-				5EC7A5E6233A3D1C00BC60DF /* Assets.xcassets */,
-				5EC7A5E8233A3D1C00BC60DF /* LaunchScreen.storyboard */,
+				5EC7A600233A3D8C00BC60DF /* AppDelegate */,
+				5EC7A601233A3DA700BC60DF /* Start */,
+				5EC7A5FF233A3D6E00BC60DF /* Resources */,
 				5EC7A5EB233A3D1C00BC60DF /* Info.plist */,
 			);
 			path = "Apex Legends Tracker";
@@ -94,6 +92,32 @@
 				5EC7A5F6233A3D1C00BC60DF /* Info.plist */,
 			);
 			path = "Apex Legends TrackerTests";
+			sourceTree = "<group>";
+		};
+		5EC7A5FF233A3D6E00BC60DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7A5E6233A3D1C00BC60DF /* Assets.xcassets */,
+				5EC7A5E8233A3D1C00BC60DF /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5EC7A600233A3D8C00BC60DF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7A5DF233A3D1700BC60DF /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5EC7A601233A3DA700BC60DF /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7A5E3233A3D1700BC60DF /* Start.storyboard */,
+				5EC7A602233A3DD200BC60DF /* StartViewController.swift */,
+			);
+			path = Start;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +203,7 @@
 			files = (
 				5EC7A5EA233A3D1C00BC60DF /* LaunchScreen.storyboard in Resources */,
 				5EC7A5E7233A3D1C00BC60DF /* Assets.xcassets in Resources */,
-				5EC7A5E5233A3D1700BC60DF /* Main.storyboard in Resources */,
+				5EC7A5E5233A3D1700BC60DF /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC7A5E2233A3D1700BC60DF /* ViewController.swift in Sources */,
 				5EC7A5E0233A3D1700BC60DF /* AppDelegate.swift in Sources */,
+				5EC7A603233A3DD200BC60DF /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,12 +245,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5EC7A5E3233A3D1700BC60DF /* Main.storyboard */ = {
+		5EC7A5E3233A3D1700BC60DF /* Start.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5EC7A5E4233A3D1700BC60DF /* Base */,
 			);
-			name = Main.storyboard;
+			name = Start.storyboard;
 			sourceTree = "<group>";
 		};
 		5EC7A5E8233A3D1C00BC60DF /* LaunchScreen.storyboard */ = {
